@@ -1,7 +1,7 @@
 def add_numbers(a, b):
     """Function for adding two numbers"""
-    assert isinstance(a, int), "a must be an integer"
-    assert isinstance(b, int), "b must be an integer"
+    assert isinstance(a, (int, float)), "a must be an integer or float"
+    assert isinstance(b, (int, float)), "b must be an integer or float"
     return a + b
 
 
