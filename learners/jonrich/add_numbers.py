@@ -14,3 +14,5 @@ try:
 except AssertionError:
     has_raised = True
 assert has_raised
+
+assert add_numbers(1.2, 2.3) > 3.4
