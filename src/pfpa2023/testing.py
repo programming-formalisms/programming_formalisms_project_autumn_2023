@@ -1,13 +1,4 @@
-"""General-purpose functions of moderate complexity.
-
-Moderate complexity' means:
- * a cyclomatic complexity of 1 to 8
- * may have for-loops
- * maximally two variables modified
-"""
-
-from random import randint
-
+"""Example testing."""
 
 def is_prime_richel(whole_number):
     """Determine if the number is a prime.
