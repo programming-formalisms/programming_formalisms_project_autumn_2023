@@ -14,6 +14,10 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
+
+      - name: Remove the folders that are not a package and may confuse the build
+        run: rm -rf learners
+
       - uses: hynek/build-and-inspect-python-package@v1
 
       - name: Setup Python
@@ -21,9 +25,6 @@ jobs:
 
       - name: Install package requirements
         run: pip install -r requirements.txt
-
-      - name: Remove the folders that are not a package and may confuse the build
-        run: rm -rf learners
 
       - name: Install the package from the local code
         run: python3 -m pip install .
