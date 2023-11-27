@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pf_example"
+name = "pfpa2023"
 version = "0.1"
 authors = [
   { name="Richèl Bilderbeek", email="richel@richelbilderbeek.nl" },
@@ -18,8 +18,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/programming-formalisms/programming_formalisms_example_project"
-"Bug Tracker" = "https://github.com/programming-formalisms/programming_formalisms_example_project/issues"
+"Homepage" = "https://github.com/programming-formalisms/programming_formalisms_project_autumn_2023"
+"Bug Tracker" = "https://github.com/programming-formalisms/programming_formalisms_project_autumn_2023/issues"
 
 [tool.ruff]
     select = ["ALL"]
