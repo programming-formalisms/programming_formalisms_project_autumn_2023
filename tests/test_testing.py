@@ -1,6 +1,5 @@
 """Test the functions in src.pfpa2023.testing."""
 import unittest
-from random import seed
 
 from src.pfpa2023.testing import (
     is_prime_richel,

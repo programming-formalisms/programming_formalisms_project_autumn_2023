@@ -6,7 +6,8 @@ def is_prime_richel(whole_number):
     This is a bad example!
     """
     if not isinstance(whole_number, int):
-        raise TypeError("'whole_number' must be an integer")
+        msg = "'whole_number' must be an integer"
+        raise TypeError(msg)
     if whole_number in [2, 3, 5, 7, 11]:
         return True
     return False
