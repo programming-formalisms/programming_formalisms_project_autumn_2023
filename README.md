@@ -15,6 +15,8 @@ finds more and more nutrients (e.g. dissolved
 sugars), and lasts shorter
 when finding less and less nutrients.
 
+![Image from https://www.coursehero.com/study-guides/microbiology/unique-characteristics-of-prokaryotic-cells/](run_and_tumble.png)
+
 ## Internal links
 
  * [learners](learners/README.md): place to keep notes and do exercises on an individual basis
