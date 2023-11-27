@@ -25,3 +25,6 @@ classifiers = [
     select = ["ALL"]
     ignore = ["ANN", "PT", "PTH", "D211", "D213", "S101", "B006"]
 
+    # Do not lint the initial code of the learners
+    exclude = ["learners"]
+
