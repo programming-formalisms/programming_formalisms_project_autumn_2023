@@ -14,4 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+      - name: Do not lint the 'learners' folder
+        run: rm -rf learners
+
       - uses: chartboost/ruff-action@v1

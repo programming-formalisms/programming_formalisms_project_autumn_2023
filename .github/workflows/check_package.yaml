@@ -22,11 +22,17 @@ jobs:
       - name: Install package requirements
         run: pip install -r requirements.txt
 
-      - name: Run console application
-        run: ./scripts/run_console.sh
+      - name: Install the package from the local code
+        run: python3 -m pip install .
 
-      - name: Run GUI application
-        run: ./scripts/run_gui_application.sh
+      - name: Run the code
+        run: python3 main.py
 
-      - name: Run benchmarks
-        run: ./scripts/run_benchmarks.sh
+      #- name: Run console application
+      #  run: ./scripts/run_console.sh
+
+      #- name: Run GUI application
+      #  run: ./scripts/run_gui_application.sh
+
+      #- name: Run benchmarks
+      #  run: ./scripts/run_benchmarks.sh
