@@ -18,9 +18,6 @@ jobs:
       - name: Remove the folders that are not a package and may confuse the build
         run: rm -rf learners
 
-      - name: Remove the files that are not a package and may confuse the build
-        run: rm main.py
-
       - uses: hynek/build-and-inspect-python-package@v1
 
       - name: Setup Python
