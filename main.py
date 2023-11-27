@@ -8,7 +8,7 @@ Usage, from the root folder:
 python3 main.py
 """
 
-# Do not start with 'src.', 
+# Do not start with 'src.',
 # install the package instead:
 #
 # python3 -m pip install .
