@@ -22,6 +22,9 @@ jobs:
       - name: Install package requirements
         run: pip install -r requirements.txt
 
+      - name: Remove the folders that are not a package and may confuse the build
+        run: rm -rf learners
+
       - name: Install the package from the local code
         run: python3 -m pip install .
 
