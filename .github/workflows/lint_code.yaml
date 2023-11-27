@@ -1,0 +1,17 @@
+# Check if all code follows a recommended coding standard
+# From https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#using-ruff-to-lint-code
+name: Lint code
+
+on:
+  push:
+  pull_request:
+  # Check monthly, on the 16th day (the first letter of this repo, is the 16th letter in the alphabet 
+  schedule:
+  - cron: "0 0 16 * *"
+
+jobs:
+  lint_code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: chartboost/ruff-action@v1
