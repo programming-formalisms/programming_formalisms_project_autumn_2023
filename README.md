@@ -1,6 +1,6 @@
 # programming_formalisms_project_autumn_2023
 
-![](programming_formalisms_student_team_autumn_2023_logo_50)
+![](programming_formalisms_student_team_autumn_2023_logo_50.png)
 
 The Programming Formalisms project of autumn 2023.
 
