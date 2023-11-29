@@ -18,4 +18,5 @@ def is_prime_richel(whole_number):
     return False
 
 def is_prime_markella(whole_number):
+    """Determine if the number is a prime"""
     return False
