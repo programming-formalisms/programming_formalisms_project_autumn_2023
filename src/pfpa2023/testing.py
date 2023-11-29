@@ -4,7 +4,16 @@ def is_prime_harald(number):
     """Check if number is prime, again"""
     if not(isinstance(number, int)):
         raise TypeError
-    return number in [1, 2, 3, 5, 7, 11]
+    if number < 2:
+        return False
+    if number == 2:
+        return True
+    if number % 2 == 0:
+        return False
+    for i in range(3, number, 2):
+        if number % i == 0:
+            return False
+    return True
 
 
 def is_prime_pontus(number):
