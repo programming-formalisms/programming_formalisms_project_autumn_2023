@@ -64,10 +64,7 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertFalse(is_prime_thanadol(0))
         self.assertTrue(is_prime_thanadol(2))
         
-<<<<<<< HEAD
-=======
     def test_flip_coin_josefine(self):
         """Test 'flip_coin_josefine'."""
         self.assertIsNotNone(flip_coin_josefine.__doc__)
->>>>>>> b2e5789033d682e7b6c9b980ba3173e9ded66e08
 
