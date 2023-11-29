@@ -75,5 +75,4 @@ def coin_toss_urs():
     
 def flip_coin_josefine():
     """Randomly return True or False"""
-    return True
-    
+    return random.randint(0, 1) > 0
