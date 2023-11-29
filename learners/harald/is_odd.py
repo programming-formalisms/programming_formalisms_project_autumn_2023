@@ -1,0 +1,1 @@
+assert is_odd(1)
