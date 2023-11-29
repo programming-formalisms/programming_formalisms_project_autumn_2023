@@ -1,6 +1,8 @@
 # is odd
 def is_odd(number):
-    return True
+    result = number % 2 == 1
+    return result
 
 assert is_odd(1)
 assert is_odd(0) == False
+assert is_odd.__doc__

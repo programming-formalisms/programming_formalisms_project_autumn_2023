@@ -9,3 +9,5 @@ def is_odd(number):
     - bool: True if the number is odd, False otherwise.
     """
     return number % 2 != 0
+
+assert is_odd(2)
