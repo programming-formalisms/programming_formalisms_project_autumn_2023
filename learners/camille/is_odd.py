@@ -9,7 +9,7 @@ def is_odd(x):
 	if isinstance(x, int):
 		return x % 2 == 1
 	else:
-		return False
+		raise TypeError("Give an integer as input")
 	
-assert not is_odd(4)
-print(is_odd(1.1))
+assert not is_odd('a')
+assert is_odd(5)
