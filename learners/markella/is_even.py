@@ -1,5 +1,7 @@
 def is_even(number):
-    assert number.isnumeric()
-    return True
+    assert isinstance(number, int)
+    
+    res = number % 2  
+    return res == 1
 
-assert is_even("ASD") 
+assert is_even(2) == True

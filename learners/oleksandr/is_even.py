@@ -1,4 +1,4 @@
 def is_even(a):
     return a
 
-assert(2)    
+assert(is_even(2)) == 2    
