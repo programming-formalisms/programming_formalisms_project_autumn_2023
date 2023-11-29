@@ -2,7 +2,7 @@
 
 def is_prime_harald(number):
     """Check if number is prime, again"""
-    return True
+    return number == 1
 
 
 def is_prime_pontus(number):
