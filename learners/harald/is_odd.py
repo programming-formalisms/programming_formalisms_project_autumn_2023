@@ -1,5 +1,5 @@
 def is_odd(num):
-    return True
+    return num%2 == 1
 
 assert is_odd(1)
 assert is_odd(2) == False
