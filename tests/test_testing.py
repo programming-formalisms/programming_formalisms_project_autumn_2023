@@ -2,13 +2,17 @@
 import unittest
 
 from src.pfpa2023.testing import (
-    is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol
+    is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol, coin_flip_pontus
 )
 
 
 class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
+
+    def test_coin_flip_pontus(self):
+        """Test 'coin_flip_pontus'."""
+        self.assertIsNotNone(coin_flip_pontus.__doc__)
 
     def test_is_prime_harald(self):
         """Test 'is_prime_harald'."""
