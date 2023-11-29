@@ -2,17 +2,19 @@
 import unittest
 
 from src.pfpa2023.testing import (
-<<<<<<< HEAD
-    is_prime_richel, is_prime_jesper
-=======
-    is_prime_harald, is_prime_richel, is_prime_pontus, is_prime_thanadol
->>>>>>> 0a23e6ec77fa63dfb9bf54925fabf0efaba97c12
+    is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol, coin_flip_pontus,
+    flip_coin_josefine
 )
 
 
 class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
+
+    def test_coin_flip_pontus(self):
+        """Test 'coin_flip_pontus'."""
+        self.assertIsNotNone(coin_flip_pontus.__doc__)
+        self.assertIsInstance(coin_flip_pontus(), bool)
 
     def test_is_prime_harald(self):
         """Test 'is_prime_harald'."""
@@ -62,4 +64,10 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertFalse(is_prime_thanadol(0))
         self.assertTrue(is_prime_thanadol(2))
         
+<<<<<<< HEAD
+=======
+    def test_flip_coin_josefine(self):
+        """Test 'flip_coin_josefine'."""
+        self.assertIsNotNone(flip_coin_josefine.__doc__)
+>>>>>>> b2e5789033d682e7b6c9b980ba3173e9ded66e08
 

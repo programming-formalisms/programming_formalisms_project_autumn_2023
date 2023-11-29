@@ -2,6 +2,11 @@
 import random
 
 
+def coin_flip_pontus():
+    """Simulate coin flip"""
+    pass
+
+
 def is_prime_harald(number):
     """Check if number is prime, again"""
     if not(isinstance(number, int)):
@@ -66,5 +71,9 @@ def is_prime_thanadol(number):
         
 def coin_toss_urs():
     """Randomly return True or False."""
+    return True
+    
+def flip_coin_josefine():
+    """Randomly return True or False"""
     return True
     
