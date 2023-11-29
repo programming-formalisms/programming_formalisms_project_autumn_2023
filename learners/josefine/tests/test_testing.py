@@ -2,7 +2,7 @@
 import unittest
 
 from learners.josefine.testing import (
-    is_prime_richel, is_prime_pontus
+    is_prime_richel, is_prime_pontus, is_prime_markella
 )
 
 
@@ -29,6 +29,8 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertFalse(is_prime_richel(6))
 
     def test_is_prime_markella(self):
+        """Test 'is_prime_markella'."""
+        self.assertIsNotNone(is_prime_markella.__doc__)
         self.assertTrue(is_prime_markella(7))
     
 
