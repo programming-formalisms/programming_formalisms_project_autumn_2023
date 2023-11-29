@@ -3,6 +3,7 @@ import random
 
 
 def coin_flip_pontus():
+    """Simulate coin flip"""
     pass
 
 def coin_toss_urs():
@@ -43,7 +44,6 @@ def is_prime_richel(whole_number):
         return True
     return False
 
-
 def is_prime_jesper(number):
     """My own prime number function"""
     if type(number) != int:
@@ -75,7 +75,6 @@ def is_prime_thanadol(number):
         
 
     
-
-        
-        
-    
+def flip_coin_josefine():
+    """Randomly return True or False"""
+    return random.randint(0, 1) > 0
