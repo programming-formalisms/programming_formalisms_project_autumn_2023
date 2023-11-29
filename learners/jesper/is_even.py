@@ -1,5 +1,6 @@
 # is_even
 def is_even(number):
+    assert type(number) == int
     return number % 2 == 0
 
 assert is_even(0)
