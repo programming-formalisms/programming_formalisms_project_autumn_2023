@@ -12,3 +12,5 @@ try:
 except AssertionError:
     has_failed = True
 assert has_failed
+
+assert is_even.__doc__
