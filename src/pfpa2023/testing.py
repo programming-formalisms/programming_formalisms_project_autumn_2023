@@ -2,7 +2,9 @@
 
 def is_prime_harald(number):
     """Check if number is prime, again"""
-    return number is in [1, 2]
+    if not(isinstance(number, int)):
+        raise TypeError
+    return number in [1, 2]
 
 
 def is_prime_pontus(number):
