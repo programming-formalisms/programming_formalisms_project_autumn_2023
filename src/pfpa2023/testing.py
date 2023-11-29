@@ -4,7 +4,7 @@ import random
 
 def coin_flip_pontus():
     """Simulate coin flip"""
-    pass
+    return True
 
 def coin_toss_urs():
     """Randomly return True or False."""
