@@ -2,6 +2,10 @@
 import random
 
 
+def coin_flip_pontus():
+    pass
+
+
 def is_prime_harald(number):
     """Check if number is prime, again"""
     if not(isinstance(number, int)):
