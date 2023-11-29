@@ -1,5 +1,9 @@
 """Example testing."""
 
+def is_prime_harald(number):
+    """Check if number is prime, again"""
+    pass
+
 def is_prime_pontus(number):
     """Check if number is prime"""
     pass
