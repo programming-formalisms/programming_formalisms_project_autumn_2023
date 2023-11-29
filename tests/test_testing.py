@@ -18,6 +18,7 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertTrue(is_prime_harald(2))
         self.assertRaises(TypeError, is_prime_harald, "evil string")
         self.assertTrue(is_prime_harald(5))
+        self.assertFalse(is_prime_harald(-1))
 
     def test_is_prime_pontus(self):
         """Test 'is_prime_pontus'."""
