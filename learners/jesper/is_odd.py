@@ -1,5 +1,8 @@
 # is odd
 def is_odd(number):
+    '''
+    This function check the odd number. 
+    '''
     result = number % 2 == 1
     return result
 

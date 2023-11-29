@@ -1,6 +1,6 @@
 # is_even
 
-def is_even(x):
+def fis_even(x):
 	"""
 	Determines whether an integer is even.
 	:param x: int
