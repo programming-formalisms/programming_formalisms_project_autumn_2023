@@ -4,11 +4,11 @@ import random
 
 def coin_flip_pontus():
     """Simulate coin flip"""
-    return True
+    return random.randint(0,1)>0
 
 def coin_toss_urs():
     """Randomly return True or False."""
-    return True
+    return random.randint(0,1)
 
 
 def is_prime_harald(number):
