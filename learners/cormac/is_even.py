@@ -1,5 +1,5 @@
 
 def is_even():
-    return False
+    return n % 2 == 0
 
-assert is_even() == True
+assert is_even(2) == True

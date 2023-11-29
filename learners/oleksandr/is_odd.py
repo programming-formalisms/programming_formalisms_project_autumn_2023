@@ -19,4 +19,8 @@ def is_odd(number):
         # Handle the case where the input is not an integer
         return "Invalid input"
 
-assert is_odd(2)
+assert is_odd(4) == False
+
+assert is_odd(1) == True
+
+assert is_odd(1)
