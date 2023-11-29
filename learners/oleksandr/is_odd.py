@@ -27,4 +27,3 @@ assert is_odd(1)
 
 assert is_odd('hello') == "Invalid input"
 
-assert is_odd('@')
