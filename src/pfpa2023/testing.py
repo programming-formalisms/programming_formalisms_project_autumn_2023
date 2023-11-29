@@ -35,7 +35,7 @@ def is_prime_richel(whole_number):
         return True
     return False
 
-<<<<<<< HEAD
+
 def is_prime_jesper(number):
     """My own prime number function"""
     if type(number) != int:
@@ -52,7 +52,7 @@ def is_prime_jesper(number):
             return True
     else:
         return False
-=======
+
 def is_prime_thanadol(number):
     """ 
     Checking the numebr is prime. 
@@ -73,4 +73,3 @@ def coin_toss_urs():
         
         
     
->>>>>>> 0a23e6ec77fa63dfb9bf54925fabf0efaba97c12

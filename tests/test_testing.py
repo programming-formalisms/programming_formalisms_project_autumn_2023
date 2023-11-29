@@ -2,11 +2,7 @@
 import unittest
 
 from src.pfpa2023.testing import (
-<<<<<<< HEAD
-    is_prime_richel, is_prime_jesper
-=======
-    is_prime_harald, is_prime_richel, is_prime_pontus, is_prime_thanadol
->>>>>>> 0a23e6ec77fa63dfb9bf54925fabf0efaba97c12
+    is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol
 )
 
 
@@ -45,7 +41,6 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertTrue(is_prime_richel(5))
         self.assertFalse(is_prime_richel(6))
 
-<<<<<<< HEAD
     def test_is_prime_jesper(self):
         """Test 'is_prime_jesper'."""
         self.assertIsNotNone(is_prime_jesper.__doc__)
@@ -55,7 +50,6 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertTrue(is_prime_jesper(11))
         self.assertFalse(is_prime_jesper(12))
 
-=======
     def test_is_prime_thanadol(self):
         """Test 'is_prime_thanadol'."""
         self.assertIsNotNone(is_prime_thanadol.__doc__)
@@ -63,6 +57,3 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertRaises(TypeError, is_prime_thanadol, 1.1)
         self.assertFalse(is_prime_thanadol(0))
         self.assertTrue(is_prime_thanadol(2))
-        
->>>>>>> 0a23e6ec77fa63dfb9bf54925fabf0efaba97c12
-
