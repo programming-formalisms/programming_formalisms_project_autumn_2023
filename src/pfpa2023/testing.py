@@ -23,3 +23,20 @@ def is_prime_richel(whole_number):
     if whole_number in [2, 3, 5, 7, 11]:
         return True
     return False
+
+def is_prime_thanadol(number):
+    """ 
+    Checking the numebr is prime. 
+    """
+
+    if number <= 1:
+        return False
+    
+    elif:
+        # for 2 and above integer
+        if not isinstance(number, int):
+            raise TypeError()
+
+        
+        
+    
