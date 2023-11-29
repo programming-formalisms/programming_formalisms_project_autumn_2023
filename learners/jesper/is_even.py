@@ -1,7 +1,7 @@
 # is_even
 def is_even(number):
     """Function for checking if a number is even."""
-    assert type(number) == int
+    assert type(number) == int or type(number) == float
     return number % 2 == 0
 
 assert is_even(0)
