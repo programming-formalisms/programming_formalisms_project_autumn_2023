@@ -1,4 +1,6 @@
 """Example testing."""
+import random
+
 
 def is_prime_harald(number):
     """Check if number is prime, again"""
@@ -62,6 +64,11 @@ def is_prime_thanadol(number):
         # for 2 and above integer
         if not isinstance(number, int):
             raise TypeError()
+        
+def coin_toss_urs():
+    """Randomly return True or False."""
+    return True
+    
 
         
         
