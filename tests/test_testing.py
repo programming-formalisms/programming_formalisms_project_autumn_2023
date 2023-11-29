@@ -16,7 +16,8 @@ class TestTestingSolutions(unittest.TestCase):
         """Test 'coin_flip_pontus'."""
         self.assertIsNotNone(coin_flip_pontus.__doc__)
         self.assertIsInstance(coin_flip_pontus(), bool)
-
+        random.seed(1)
+        self.assertFalse(coin_flip_pontus())
     
     def test_coin_toss_urs(self):
         """Test 'coin_toss_urs'."""
