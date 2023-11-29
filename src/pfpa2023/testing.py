@@ -4,7 +4,11 @@ import random
 
 def coin_flip_pontus():
     """Simulate coin flip"""
-    pass
+    return True
+
+def coin_toss_urs():
+    """Randomly return True or False."""
+    return True
 
 
 def is_prime_harald(number):
@@ -69,11 +73,8 @@ def is_prime_thanadol(number):
         if not isinstance(number, int):
             raise TypeError()
         
-def coin_toss_urs():
-    """Randomly return True or False."""
-    return True
+
     
 def flip_coin_josefine():
     """Randomly return True or False"""
-    return True
-    
+    return random.randint(0, 1) > 0

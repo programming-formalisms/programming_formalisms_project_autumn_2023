@@ -1,8 +1,9 @@
 """Test the functions in src.pfpa2023.testing."""
 import unittest
+import random
 
 from src.pfpa2023.testing import (
-    is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol, coin_flip_pontus,
+    coin_toss_urs, is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol, coin_flip_pontus,
     flip_coin_josefine
 )
 
@@ -15,6 +16,13 @@ class TestTestingSolutions(unittest.TestCase):
         """Test 'coin_flip_pontus'."""
         self.assertIsNotNone(coin_flip_pontus.__doc__)
         self.assertIsInstance(coin_flip_pontus(), bool)
+
+    
+    def test_coin_toss_urs(self):
+        """Test 'coin_toss_urs'."""
+        random.seed(2)
+        self.assertFalse(coin_toss_urs())
+
 
     def test_is_prime_harald(self):
         """Test 'is_prime_harald'."""
