@@ -1,5 +1,10 @@
 """Example testing."""
 
+def is_prime_pontus(number):
+    """Check if number is prime"""
+    pass
+
+
 def is_prime_richel(whole_number):
     """Determine if the number is a prime.
 

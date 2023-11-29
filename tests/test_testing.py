@@ -2,7 +2,7 @@
 import unittest
 
 from src.pfpa2023.testing import (
-    is_prime_richel,
+    is_prime_richel, is_prime_pontus
 )
 
 
