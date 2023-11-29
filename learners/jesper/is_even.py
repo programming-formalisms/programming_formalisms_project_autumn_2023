@@ -4,3 +4,4 @@ def is_even(number):
 
 assert is_even(0)
 assert is_even(1) == False
+assert is_even("string")
