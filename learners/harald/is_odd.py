@@ -6,8 +6,9 @@ assert is_odd(1)
 assert is_odd(2) == False
 assert is_odd.__doc__
 
+has_failed = False
 try:
-    is_odd(1)
+    is_odd("hfasfjahsf")
 except AssertionError:
     has_failed = True
 assert has_failed
