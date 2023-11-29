@@ -18,6 +18,12 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertIsInstance(coin_flip_pontus(), bool)
         random.seed(1)
         self.assertFalse(coin_flip_pontus())
+        random.seed(5)
+        self.assertTrue(coin_flip_pontus())
+        flip_coin_result = []
+        for i in range(100):
+            flip_coin_result.append(coin_flip_pontus())
+        self.assertTrue(45<=sum(flip_coin_result)<=55)
     
     def test_coin_toss_urs(self):
         """Test 'coin_toss_urs'."""
