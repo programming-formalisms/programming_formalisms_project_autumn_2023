@@ -1,5 +1,26 @@
 """Example testing."""
 
+def is_prime_harald(number):
+    """Check if number is prime, again"""
+    if not(isinstance(number, int)):
+        raise TypeError
+    if number < 2:
+        return False
+    if number == 2:
+        return True
+    if number % 2 == 0:
+        return False
+    for i in range(3, number, 2):
+        if number % i == 0:
+            return False
+    return True
+
+
+def is_prime_pontus(number):
+    """Check if number is prime"""
+    pass
+
+
 def is_prime_richel(whole_number):
     """Determine if the number is a prime.
 
@@ -12,6 +33,7 @@ def is_prime_richel(whole_number):
         return True
     return False
 
+<<<<<<< HEAD
 def is_prime_jesper(number):
     """My own prime number function"""
     if type(number) != int:
@@ -28,3 +50,20 @@ def is_prime_jesper(number):
             return True
     else:
         return False
+=======
+def is_prime_thanadol(number):
+    """ 
+    Checking the numebr is prime. 
+    """
+
+    if number <= 1:
+        return False
+    else:
+        # for 2 and above integer
+        if not isinstance(number, int):
+            raise TypeError()
+
+        
+        
+    
+>>>>>>> 0a23e6ec77fa63dfb9bf54925fabf0efaba97c12

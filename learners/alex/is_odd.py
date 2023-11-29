@@ -12,6 +12,11 @@ def is_odd(number):
 
 assert is_odd(1) == True
 assert is_odd(2) == False
-assert is_odd("stringput") 
 
+
+has_raised_error = False
+try:
+	assert is_odd("stringput") 
+except:
+	has_raised_error = True
 
