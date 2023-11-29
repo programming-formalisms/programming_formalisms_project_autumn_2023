@@ -1,4 +1,5 @@
 def is_even(number):
+    assert number.isnumeric()
     return True
 
-assert is_even(2) == False
+assert is_even("ASD") 
