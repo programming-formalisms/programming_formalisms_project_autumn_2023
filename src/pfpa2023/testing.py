@@ -3,6 +3,7 @@ import random
 
 
 def coin_flip_pontus():
+    """Simulate coin flip"""
     pass
 
 
