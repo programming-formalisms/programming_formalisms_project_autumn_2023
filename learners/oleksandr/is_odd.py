@@ -10,4 +10,8 @@ def is_odd(number):
     """
     return number % 2 != 0
 
-assert is_odd(2)
+assert is_odd(4) == False
+
+assert is_odd(1) == True
+
+assert is_odd(1)
