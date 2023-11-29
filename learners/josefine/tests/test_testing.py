@@ -1,7 +1,7 @@
 """Test the functions in src.pfpa2023.testing."""
 import unittest
 
-from ../../learners.josefine.testing import (
+from learners.josefine.testing import (
     is_prime_richel, is_prime_pontus
 )
 
@@ -27,4 +27,8 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertFalse(is_prime_richel(4))
         self.assertTrue(is_prime_richel(5))
         self.assertFalse(is_prime_richel(6))
+
+    def test_is_prime_markella(self):
+        self.assertTrue(is_prime_markella(7))
+    
 
