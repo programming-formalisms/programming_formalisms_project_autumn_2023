@@ -22,6 +22,8 @@ class TestTestingSolutions(unittest.TestCase):
         """Test 'coin_toss_urs'."""
         random.seed(2)
         self.assertFalse(coin_toss_urs())
+        random.seed(2)
+        self.assertTrue(coin_toss_urs())
 
 
     def test_is_prime_harald(self):
