@@ -2,7 +2,7 @@
 import unittest
 
 from src.pfpa2023.testing import (
-    is_prime_harald, is_prime_richel, is_prime_pontus
+    is_prime_harald, is_prime_richel, is_prime_pontus, is_prime_thanadol
 )
 
 
@@ -40,4 +40,13 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertFalse(is_prime_richel(4))
         self.assertTrue(is_prime_richel(5))
         self.assertFalse(is_prime_richel(6))
+
+    def test_is_prime_thanadol(self):
+        """Test 'is_prime_thanadol'."""
+        self.assertIsNotNone(is_prime_thanadol.__doc__)
+        self.assertRaises(TypeError, is_prime_thanadol, "string")
+        self.assertRaises(TypeError, is_prime_thanadol, 1.1)
+        self.assertFalse(is_prime_thanadol(0))
+        self.assertTrue(is_prime_thanadol(2))
+        
 

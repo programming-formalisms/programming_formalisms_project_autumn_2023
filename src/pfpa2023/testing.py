@@ -40,8 +40,7 @@ def is_prime_thanadol(number):
 
     if number <= 1:
         return False
-    
-    elif:
+    else:
         # for 2 and above integer
         if not isinstance(number, int):
             raise TypeError()
