@@ -13,6 +13,7 @@ class TestTestingSolutions(unittest.TestCase):
     def test_coin_flip_pontus(self):
         """Test 'coin_flip_pontus'."""
         self.assertIsNotNone(coin_flip_pontus.__doc__)
+        self.assertIsInstance(coin_flip_pontus(), bool)
 
     def test_is_prime_harald(self):
         """Test 'is_prime_harald'."""
