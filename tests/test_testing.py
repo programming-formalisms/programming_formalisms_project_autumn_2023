@@ -19,6 +19,9 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertRaises(TypeError, is_prime_harald, "evil string")
         self.assertTrue(is_prime_harald(5))
         self.assertFalse(is_prime_harald(-1))
+        # test below is first prime larger than signed int maximum
+        # test is true, but takes 130 seconds on my machine
+        # self.assertTrue(is_prime_harald(2147483659))
 
     def test_is_prime_pontus(self):
         """Test 'is_prime_pontus'."""
