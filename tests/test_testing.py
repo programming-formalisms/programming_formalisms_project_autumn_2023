@@ -10,6 +10,10 @@ class TestTestingSolutions(unittest.TestCase):
 
     """Class to test all function."""
 
+    def test_is_prime_harald(self):
+        """Test 'is_prime_harald'."""
+        self.assertIsNotNone(is_prime_harald.__doc__)
+
     def test_is_prime_pontus(self):
         """Test 'is_prime_pontus'."""
         self.assertIsNotNone(is_prime_pontus.__doc__)
