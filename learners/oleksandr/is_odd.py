@@ -24,3 +24,5 @@ assert is_odd(4) == False
 assert is_odd(1) == True
 
 assert is_odd(1)
+
+assert is_odd('hello')
