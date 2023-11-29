@@ -8,7 +8,7 @@ def coin_flip_pontus():
 
 def coin_toss_urs():
     """Randomly return True or False."""
-    return True
+    return random.randint(0,1)
 
 
 def is_prime_harald(number):
@@ -78,3 +78,9 @@ def is_prime_thanadol(number):
 def flip_coin_josefine():
     """Randomly return True or False"""
     return random.randint(0, 1) > 0
+
+def flip_coin_cormac():
+    seq = [False, True]
+    return random.choice(seq)
+
+1

@@ -4,7 +4,7 @@ import random
 
 from src.pfpa2023.testing import (
     coin_toss_urs, is_prime_harald, is_prime_jesper, is_prime_richel, is_prime_pontus, is_prime_thanadol, coin_flip_pontus,
-    flip_coin_josefine
+    flip_coin_josefine, flip_coin_cormac
 )
 
 
@@ -29,6 +29,8 @@ class TestTestingSolutions(unittest.TestCase):
         """Test 'coin_toss_urs'."""
         random.seed(2)
         self.assertFalse(coin_toss_urs())
+        random.seed(5)
+        self.assertTrue(coin_toss_urs())
 
 
     def test_is_prime_harald(self):
@@ -85,4 +87,13 @@ class TestTestingSolutions(unittest.TestCase):
         self.assertIsInstance(flip_coin_josefine(), bool)
         random.seed(5)
         self.assertTrue(flip_coin_josefine())
+
+    def test_flip_coin_cormac(self):
+        random.seed(10)
+        self.assertTrue(flip_coin_cormac())
+        self.assertFalse(flip_coin_cormac())
+        self.assertFalse(flip_coin_cormac())
+        random.seed(520-100)
+        self.assertTrue(flip_coin_cormac())
+        self.assertFalse(flip_coin_cormac())
 
