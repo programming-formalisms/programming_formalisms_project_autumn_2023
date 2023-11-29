@@ -13,6 +13,7 @@ class TestTestingSolutions(unittest.TestCase):
     def test_is_prime_harald(self):
         """Test 'is_prime_harald'."""
         self.assertIsNotNone(is_prime_harald.__doc__)
+        self.assertTrue(is_prime_harald(1))
 
     def test_is_prime_pontus(self):
         """Test 'is_prime_pontus'."""
