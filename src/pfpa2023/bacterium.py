@@ -2,4 +2,5 @@
 
 
 class Bacterium:
+
     """Bacterium."""
