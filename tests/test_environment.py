@@ -1,10 +1,9 @@
-"""Tests all function in src.pf2023_example.envir."""
+"""Tests all function in src.pf2023_example.enviro."""
 import unittest
 
 from src.pf_example.enviro import(
     Environment,
 )
-
 
 class TestEnvironment(unittest.TestCase):
 
@@ -12,7 +11,7 @@ class TestEnvironment(unittest.TestCase):
 
   def test_can_create_params(self):
 
-    """#14: Can construct a Environment."""
+    """#23: Can construct a Environment."""
 
     Environment()
    
