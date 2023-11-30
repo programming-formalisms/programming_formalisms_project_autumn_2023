@@ -6,4 +6,7 @@ They found the magic sword.
 
 The sword was glowing red.
 
+"Ouch that's hot," Gotho said.
+Its blade was sharp.
+
 and they lived happily ever after.
