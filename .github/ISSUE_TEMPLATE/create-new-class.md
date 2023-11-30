@@ -7,47 +7,47 @@ assignees: ''
 
 ---
 
-In [the class design document](https://github.com/programming-formalisms/programming_formalisms_example_project/blob/main/design/class_diagram_richel.puml), the class in the title
+In the class list, the class in the title
 is mentioned. Create it!
 
 # Procedure
 
  * [ ] Create a file for the class implementation
-   with name `src/pf_example/[class_name].py`,
-   e.g. `src/pf_example/simulation_parameters.py`
+   with name `src/[module_name]/[class_name].py`,
+   e.g. `src/pfpa2023/duck.py`
  * [ ] Create a file for the class tests,
-   with name `tests/test-[class_name].py`,
-   e.g. `tests/test-simulation_parameters.py`
+   with name `tests/test_[class_name].py`,
+   e.g. `tests/test_duck.py`
  * [ ] Create a minimal class implementation,
    for example:
 
 ```python
-"""Simulation parameters."""
+"""A duck."""
 
-class SimulationParameters:
+class Duck:
 
-    """SimulationParameters holds the simulation's parameters."""
+    """Duck is a duck."""
 ```
 
  * [ ] Create a minimal class test,
    for example:
 
 ```python
-"""Tests all function in src.pf_example.simulation_parameters."""
+"""Tests all function in src.pf_example.duck."""
 import unittest
 
-from src.pf_example.simulation_parameters import (
-    SimulationParameters,
+from src.pf_example.duck import (
+    Duck,
 )
 
 
-class TestSimulationParameters(unittest.TestCase):
+class TestDuck(unittest.TestCase):
 
-    """Class to test the code in src.pf_example.simulation_parameters."""
+    """Class to test the code in src.pf_example.duck."""
 
     def test_can_create_params(self):
-        """#14: Can construct a SimulationParameters."""
-        SimulationParameters()
+        """#[issue_number]: Can create a Duck."""
+        Duck()
 ```
 
 The test is that it works, not that it does anything useful.

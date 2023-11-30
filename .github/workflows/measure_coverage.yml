@@ -13,6 +13,9 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
+    - name: Ignore the learners folder
+      run: rm -rf learners
+
     - name: Setup Python
       uses: actions/setup-python@master
 
