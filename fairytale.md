@@ -15,6 +15,8 @@ They also found an axe.
 Its blade was sharp, it had a long handle.
 It was very beautiful.
 
+"Ouch, that's sharp," Gotho said.
+
 and they lived happily with a cat ever after.
 
 until the fire nation attacked..
