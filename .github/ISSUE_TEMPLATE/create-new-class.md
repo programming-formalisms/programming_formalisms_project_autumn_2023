@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-In [the class design document](https://github.com/programming-formalisms/programming_formalisms_example_project/blob/main/design/class_diagram_richel.puml), the class in the title
+In the class list, the class in the title
 is mentioned. Create it!
 
 # Procedure
@@ -16,8 +16,8 @@ is mentioned. Create it!
    with name `src/pf_example/[class_name].py`,
    e.g. `src/pf_example/simulation_parameters.py`
  * [ ] Create a file for the class tests,
-   with name `tests/test-[class_name].py`,
-   e.g. `tests/test-simulation_parameters.py`
+   with name `tests/test_[class_name].py`,
+   e.g. `tests/test_simulation_parameters.py`
  * [ ] Create a minimal class implementation,
    for example:
 
