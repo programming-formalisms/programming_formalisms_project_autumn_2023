@@ -2,7 +2,7 @@
 import unittest
 
 from src.pfpa2023.motion_type import (
-    MotionType
+    MotionType,
 )
 
 

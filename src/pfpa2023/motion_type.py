@@ -1,4 +1,4 @@
-"""motion_type"""
+"""motion_type."""
 
 class MotionType:
 
