@@ -2,6 +2,8 @@
 
 Once upon a time, in a galaxy far, far away ...
 
+Five adventurers went on an epic quest.
+
 They found the magic sword, and went on an adventure.
 
 The sword was glowing red.
