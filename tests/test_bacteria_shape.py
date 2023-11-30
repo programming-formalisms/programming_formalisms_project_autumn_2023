@@ -13,3 +13,4 @@ class TestBacteriaShape(unittest.TestCase):
     def test_can_create_params(self):
         """#15: Can construct a BacteriaShape."""
         BacteriaShape()
+        
