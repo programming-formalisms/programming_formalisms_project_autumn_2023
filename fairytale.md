@@ -8,5 +8,6 @@ The sword was glowing red.
 
 "Ouch that's hot," Gotho said.
 Its blade was sharp.
+It was very beautiful.
 
 and they lived happily ever after.
