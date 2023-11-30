@@ -7,6 +7,9 @@ They found the magic sword.
 The sword was glowing red.
 
 "Ouch that's hot," Gotho said.
+
+They also found an axe.
+
 Its blade was sharp.
 It was very beautiful.
 
