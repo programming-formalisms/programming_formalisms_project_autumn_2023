@@ -8,6 +8,10 @@ They found the magic sword, and went on an adventure.
 
 The sword was glowing red.
 
+
+The sword was definitely not a lightsabre because that would be copyright infringement.
+
+and they lived happily ever after.
 "Ouch that's hot," Gotho said.
 
 They also found an axe.
@@ -23,3 +27,4 @@ until the fire nation attacked..
 
 The end.
 A story written by the workshop attendees of Autumn 2023.
+
