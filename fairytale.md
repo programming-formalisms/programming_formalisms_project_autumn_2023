@@ -10,4 +10,4 @@ The sword was glowing red.
 Its blade was sharp.
 It was very beautiful.
 
-and they lived happily ever after.
+and they lived happily with a cat ever after.
