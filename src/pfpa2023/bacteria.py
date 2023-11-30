@@ -1,7 +1,5 @@
-# Bacteria class
-
-"""Some bacteria"""
+"""Some bacteria."""
 
 class Bacteria:
 
-    """Bacteria are bacteria"""
+    """Bacteria are bacteria."""
