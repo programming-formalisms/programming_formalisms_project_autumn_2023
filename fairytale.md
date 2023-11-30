@@ -2,6 +2,8 @@
 
 Once upon a time, in a galaxy far, far away ...
 
+Five adventurers went on an epic quest.
+
 They found the magic sword, and went on an adventure.
 
 The sword was glowing red.
@@ -10,12 +12,14 @@ The sword was glowing red.
 
 They also found an axe.
 
-Its blade was sharp.
+Its blade was sharp, it had a long handle.
 It was very beautiful.
 
 "Ouch, that's sharp," Gotho said.
 
-and they lived happily ever after.
+and they lived happily with a cat ever after.
+
+until the fire nation attacked..
 
 The end.
 A story written by the workshop attendees of Autumn 2023.
