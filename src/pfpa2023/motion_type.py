@@ -2,4 +2,4 @@
 
 class MotionType:
 
-    """Class to describe type of motion"""
+    """Class to describe type of motion."""
