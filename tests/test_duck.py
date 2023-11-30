@@ -1,7 +1,7 @@
 """Tests all function in src.pf_example.duck."""
 import unittest
 
-from src.pfpa2023.simulation_parameters import (
+from src.pfpa2023.duck import (
     Duck,
 )
 
