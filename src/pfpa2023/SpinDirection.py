@@ -1,5 +1,5 @@
 """SpinDirection bacteria"""
 
-class SpinDirection:
+class Spin_Direction:
 
-    """SpinDirection takes the direction of the spin"""
+    """Spin_Direction takes the direction of the spin"""
