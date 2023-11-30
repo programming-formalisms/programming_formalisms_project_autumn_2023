@@ -3,4 +3,4 @@
 
 class Coordinate:
 
-    """Where am I?"""
+    """Where am I?."""
