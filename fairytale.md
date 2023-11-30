@@ -10,7 +10,7 @@ The sword was glowing red.
 
 They also found an axe.
 
-Its blade was sharp.
+Its blade was sharp, it had a long handle.
 It was very beautiful.
 
 and they lived happily ever after.
