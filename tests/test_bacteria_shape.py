@@ -1,7 +1,7 @@
 """Tests all function in src.pf_example.bacteria_shape."""
 import unittest
 
-from src.pf_example.bacteria_shape import (
+from src.pfpa2023.bacteria_shape import (
     BacteriaShape,
 )
 
