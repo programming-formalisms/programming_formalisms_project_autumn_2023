@@ -9,7 +9,7 @@ They found the magic sword, and went on an adventure.
 The sword was glowing red.
 
 
-The sword was definitely not a lightsabre because that would be copyright infringement.
+The sword was definitely not a lightsaber because that would be copyright infringement.
 
 and they lived happily ever after.
 "Ouch that's hot," Gotho said.
