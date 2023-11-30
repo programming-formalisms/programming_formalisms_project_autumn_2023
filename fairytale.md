@@ -10,3 +10,5 @@ The sword was glowing red.
 Its blade was sharp.
 
 and they lived happily ever after.
+
+until the fire nation attacked..
