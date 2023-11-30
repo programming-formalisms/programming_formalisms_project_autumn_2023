@@ -6,4 +6,6 @@ They found the magic sword.
 
 The sword was glowing red.
 
+Unfortanutely the princess wanted it pink!
+
 and they lived happily ever after.
