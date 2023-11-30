@@ -1,4 +1,4 @@
-"""Tests all function in src.pf_example.bacteria_shape."""
+"""Tests all function in src.pfpa2023.bacteria_shape."""
 import unittest
 
 from src.pfpa2023.bacteria_shape import (
@@ -8,7 +8,7 @@ from src.pfpa2023.bacteria_shape import (
 
 class TestBacteriaShape(unittest.TestCase):
 
-    """Class to test the code in src.pf_example.simulation_parameters."""
+    """Class to test the code in src.pfpa2023.simulation_parameters."""
 
     def test_can_create_params(self):
         """#15: Can construct a BacteriaShape."""
