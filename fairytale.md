@@ -11,3 +11,5 @@ Its blade was sharp.
 It was very beautiful.
 
 and they lived happily ever after.
+
+until the fire nation attacked..
