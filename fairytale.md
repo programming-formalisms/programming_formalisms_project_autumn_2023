@@ -10,10 +10,10 @@ The sword was glowing red.
 
 They also found an axe.
 
-Its blade was sharp.
+Its blade was sharp, it had a long handle.
 It was very beautiful.
 
-and they lived happily ever after.
+and they lived happily with a cat ever after.
 
 until the fire nation attacked..
 
