@@ -13,6 +13,8 @@ They also found an axe.
 Its blade was sharp.
 It was very beautiful.
 
+"Ouch, that's sharp," Gotho said.
+
 and they lived happily ever after.
 
 The end.
