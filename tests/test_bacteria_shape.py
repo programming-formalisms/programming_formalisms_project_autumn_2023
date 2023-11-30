@@ -1,0 +1,15 @@
+"""Tests all function in src.pf_example.bacteria_shape."""
+import unittest
+
+from src.pf_example.bacteria_shape import (
+    BacteriaShape,
+)
+
+
+class TestBacteriaShape(unittest.TestCase):
+
+    """Class to test the code in src.pf_example.simulation_parameters."""
+
+    def test_can_create_params(self):
+        """#15: Can construct a BacteriaShape."""
+        BacteriaShape()
