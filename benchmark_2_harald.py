@@ -19,7 +19,7 @@ def richel_sort(data):
 
 def create(): 
    """Create the data to be sorted."""
-   return list(range(0, 9))
+   return list(range(0, 10))
 
 def reverse(x): 
     """Reverse the list."""
