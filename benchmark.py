@@ -13,7 +13,7 @@ from pfpa2023.testing import (
 
 def run_benchmark():
     """Put here the code you want to benchmark"""
-    for i in range(0, 100):
+    for i in range(0, 10000):
         is_prime_harald(i)
         is_prime_jesper(i)
         is_prime_pontus(i)
