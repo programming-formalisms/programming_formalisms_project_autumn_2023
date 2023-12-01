@@ -5,7 +5,7 @@ start
 :do something;
 repeat
     :repeat someting;
-    
+repeat while
 
 stop
 @enduml
