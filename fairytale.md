@@ -18,7 +18,10 @@ They also found an axe.
 
 Its blade was sharp, it had a long handle.
 It was very beautiful.
+Unfortunately the princess wanted the sword pink!
 
+
+and they lived happily ever after.
 "Ouch, that's sharp," Gotho said.
 
 and they lived happily with a cat ever after.
