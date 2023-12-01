@@ -28,7 +28,7 @@ def do_benchmark():
     )
 
 if __debug__:
-    msg = "Do not benchmark in debug mode. Tip: run 'python -O profiling.py''"
+    msg = "Do not benchmark in debug mode. Tip: run 'python -O benchmark.py''"
     e = RuntimeError(msg)
     raise e
 do_benchmark()
