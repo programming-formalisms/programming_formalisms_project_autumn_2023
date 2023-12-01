@@ -17,4 +17,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
 
+      - name: Remove folders that should not be spellchecked
+      - run: rm -rf reflections
+
       - uses: igsekor/pyspelling-any@v0.0.2
