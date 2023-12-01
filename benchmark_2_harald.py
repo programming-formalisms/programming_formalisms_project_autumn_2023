@@ -19,7 +19,7 @@ def richel_sort(data):
 
 def create(): 
    """Create the data to be sorted."""
-   return list(range(0, 10))
+   return list(range(0, 7))
 
 def reverse(x): 
     """Reverse the list."""
@@ -37,5 +37,9 @@ def do_complex_calculation():
     """
     return sort(reverse(create()))
 
-import cProfile
-cProfile.run("do_complex_calculation()")
+#import cProfile
+#cProfile.run("do_complex_calculation()")
+#
+# run using snakeviz instead:
+# python -m cProfile -o benchmark_2_harald.prof benchmark_2_harald.py 
+# snakeviz program.prof
