@@ -1,0 +1,3 @@
+"""Environment."""
+class Environment:
+    """Environment."""
