@@ -1,14 +1,20 @@
 activity diagram for
 @startuml
 
-user --> (track trajectory)
-(track trajectory) --> (visualize) : includes
-(visualize) --> (show bacteria) : includes
-(visualize) --> (show nutrient distribution) : includes
-user --> (show results)
-(visualize) -> (show results) : includes
-user --> (error messages)
-user --> (start simulation)
-(error messages) -> (show results): includes
+|user|
+start
+:ask for trajectory;
+|program|
+:collect data;
+if (found error?) then (yes)
+|user|
+:return error message;
+stop
+else (no)
+|program|
+:farvel;
+endif
+|user|
+stop
 
 @enduml
