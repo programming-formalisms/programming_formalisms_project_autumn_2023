@@ -1,18 +1,18 @@
 """Benchmarks code."""
 
 import cProfile
-import sys
 
 from pfpa2023.testing import (
-  is_prime_harald,
-  is_prime_jesper,
-  is_prime_pontus,
-  is_prime_richel,
-  is_prime_thanadol,
+    is_prime_harald,
+    is_prime_jesper,
+    is_prime_pontus,
+    is_prime_richel,
+    is_prime_thanadol,
 )
 
+
 def run_benchmark():
-    """Put here the code you want to benchmark"""
+    """Put here the code you want to benchmark."""
     for i in range(0, 10000):
         is_prime_harald(i)
         is_prime_jesper(i)
@@ -24,7 +24,7 @@ def run_benchmark():
 def do_benchmark():
     """Benchmark this project."""
     cProfile.run(
-        "run_benchmark()"
+        "run_benchmark()",
     )
 
 if __debug__:
